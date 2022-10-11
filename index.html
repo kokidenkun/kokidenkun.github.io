@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div>
+		<div class="show-result-area">
+			<h2>正解</h2>
+			<button id="show-result-button">
+				Open Result
+			</button>
+			<div id="result1">----</div>
+			<div id="result2">----</div>
+			<div id="result3">----</div>
+			<div id="result4">----</div>
+		</div>
+
+		<div class="circle"></div>
+
+		<div class="setting-area">
+			<input type="checkbox" id="show-only-initial" name="initial">
+			<label for="initial">Initial?</label>
+		</div>
+
+		<div class="spell-area">
+			<h2>呪文リスト</h2>
+
+			<div class="interval-form">
+				<label for="interval">interval</label>
+				<input type="number" name="interval" id="interval" value="1">
+			</div>
+
+			<div class="start-lot-button-area">
+				<button id="start-lot-button">
+					Start Challenge
+				</button>
+			</div>
+
+			<div id="spell-list" draggable="false">
+				<div id="spell1">-----</div>
+				<div id="spell2">-----</div>
+				<div id="spell3">-----</div>
+				<div id="spell4">-----</div>
+			</div>
+		</div>
+	</div>
+</body>
